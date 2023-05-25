@@ -1,9 +1,6 @@
-const Image = ({src, alt, className = null, isNew = false}) => {
+const Image = ({src, alt, className = null}) => {
 	return (
-		<>
-			<img src={src} alt={alt} className={className} />
-			{isNew && <span className="new-badge">New!</span>}
-		</>
+		<img src={src} alt={alt} className={className} />
 	)
 }
 

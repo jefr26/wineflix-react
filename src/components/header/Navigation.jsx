@@ -1,3 +1,5 @@
+import UserAvatar from "./UserAvatar"
+
 const Navigation = () => {
 	return (
 		<nav className="navigation">
@@ -19,9 +21,7 @@ const Navigation = () => {
 				</ul>
 			</section>
 			<section className="secondary-navigation">
-				<span className="user-avatar">
-					<a href="https://developer.mozilla.org">S</a>
-				</span>
+				<UserAvatar />
 			</section>
 		</nav>
 	)
