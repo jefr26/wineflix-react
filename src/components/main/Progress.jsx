@@ -1,6 +1,8 @@
-const Progess = () => {
-	return (  
-		<></>
+const Progess = ({ value }) => {
+	return (
+		<div className="amount-consumed">
+			<progress min="0" max="100" value={value}></progress>
+		</div>
 	)
 }
 

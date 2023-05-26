@@ -5,11 +5,11 @@ import HeroContent from "../hero/HeroContent";
 
 const Header = () => {
 	return (
-		<header className="hero">
+		<>
 			<Hero />
 			<Navigation />
 			<HeroContent content={ heroContent } />
-		</header>
+		</>
 	)
 }
 
