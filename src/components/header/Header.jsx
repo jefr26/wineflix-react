@@ -1,7 +1,7 @@
 import { heroContent } from "../../misc/data";
-import Hero from "./Hero"
 import Navigation from "./Navigation";
-import HeroContent from "./HeroContent";
+import Hero from "../hero/Hero"
+import HeroContent from "../hero/HeroContent";
 
 const Header = () => {
 	return (

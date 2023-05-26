@@ -110,4 +110,31 @@ const winesKeepDrinking = [
 	},
 ]
 
-export { heroContent, winesDrinkAgain, winesKeepDrinking }
+const mainMenu = [
+	{
+		id: 1,
+		url: "https://developer.mozilla.org",
+		title: "Home",
+		active: true,
+	},
+	{
+		id: 2,
+		url: "https://developer.mozilla.org",
+		title: "Whites",
+		active: false,
+	},
+	{
+		id: 3,
+		url: "https://developer.mozilla.org",
+		title: "Reds",
+		active: false,
+	},
+	{
+		id: 4,
+		url: "https://developer.mozilla.org",
+		title: "Blends",
+		active: false,
+	},
+]
+
+export { heroContent, winesDrinkAgain, winesKeepDrinking, mainMenu }
